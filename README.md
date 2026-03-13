@@ -760,7 +760,7 @@ The loss curve shows steady improvement during training, and the model achieves 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/Car1LL/MNIST-from-scratch.git
 cd mnist-from-scratch
 ```
 
