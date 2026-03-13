@@ -38,12 +38,12 @@ In the case of MNIST, the input data is a **28x28** grayscale image, which can b
 
 However, our model expects input dara as a vector, not a 2D matrix. Therefore, we must transform the **28x28** matrix into a vector of size 784. This process is called **flattening**. 
 
-Although we work with vectors, the model still expects a matrix as an input. Why? Because the first dimensions is always represents the batch_size.
+Although we work with vectors, the model still expects a matrix as an input. Why? Because the first dimensions is always represents the batch size.
 
-    For example, if the batch size is 32, the input will have the shape:
-    ```
+For example, if the batch size is 32, the input will have the shape:
+    
     [32, 784]
-    ```
+    
 
 So we still have a matrix, not a tensor.
 
