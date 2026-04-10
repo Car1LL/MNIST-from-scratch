@@ -569,8 +569,6 @@ EPOCHS = 10
 * `batch_size` - number of samples processed before updating the model 
 * `EPOCHS` - number of full passes through the dataset
 
-Number of full passes through dataset
-
 ### Loading dataset 
 
 ```python
